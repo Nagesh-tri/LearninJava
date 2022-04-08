@@ -3,7 +3,7 @@ public class Main
 {
 	public static void main(String[] args) {
 	int n=4;
-            } else{
+
 	int m=5;
     for(int i=1;i<=n;i++){// 	outer loop for lines
 
@@ -12,6 +12,7 @@ public class Main
             //for pattern
             if(i==1|j==1|i==n|j==m){
                 System.out.print("*");
+            } else{
                 System.out.print(" ");
             }
         }
