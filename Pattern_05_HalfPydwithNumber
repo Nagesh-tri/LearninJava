@@ -7,7 +7,7 @@ public class Main
 	    //Inner loop 
 	    for(int j=1;j<=i;j++){
 	        //number should equal to j so we print J
-	        System.out.print(j);
+	        System.out.print(j+" ");
 	    }
 	    //print a new line.
 	    System.out.println();
