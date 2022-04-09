@@ -1,0 +1,28 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    //printing a palindromic number pyramid
+	int n=5;
+//Outer loop
+	for(int i=1;i<=n;i++){
+	    //Inner loop  --> for space
+	    for(int j=1;j<=n-i;j++){
+	        System.out.print("  ");//adding another space pyramid get realy good structure.
+	    }
+	    //Inner loop  --> for Numver
+	    for (int j=i;j>=1;j--){
+	        System.out.print(j+" ");//value of j from i to 1 in decending order
+	    //3rd Pyramid print incresing order Number form 2;
+	    }
+	    //space is also imp for making complete Pyramid
+	    for(int j=2;j<=i;j++){
+	        System.out.print(j+" ");
+	    }
+	    //4rd Inner loop  -->for again spaces
+	    for(int j=1;j<=n-i;j++){
+	        System.out.print(" ");
+	    }
+	    System.out.println();
+	}
+	}
+}
