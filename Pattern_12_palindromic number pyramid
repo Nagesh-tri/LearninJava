@@ -19,9 +19,7 @@ public class Main
 	        System.out.print(j+" ");
 	    }
 	    //4rd Inner loop  -->for again spaces
-	    for(int j=1;j<=n-i;j++){
-	        System.out.print(" ");
-	    }
+	    //HEy u just need not that extra spaces mad man.
 	    System.out.println();
 	}
 	}
